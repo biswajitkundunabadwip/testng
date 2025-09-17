@@ -1,0 +1,14 @@
+<suite name="Learn groups">
+	<test name="Group Test">
+		<groups>
+			<run>
+				<include name="mobile" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="learn_testng_groups.HomeLoanApplications" />
+			<class name="learn_testng_groups.PersonalLoanApplications" />
+		</classes>
+	</test>
+</suite>

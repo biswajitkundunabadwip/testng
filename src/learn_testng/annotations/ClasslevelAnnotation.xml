@@ -1,0 +1,13 @@
+<suite name="Testng Suite Learning">
+	<test name="Learn Testng ">
+		<classes>
+			<class name="learn_testng.annotations.ClasslevelAnnotation" />
+		</classes>
+	</test>
+
+	<test name="Just implmeneted the @Test annotation">
+		<classes>
+			<class name="learn_testng.annotations.OnlyTest" />
+		</classes>
+	</test>
+</suite>

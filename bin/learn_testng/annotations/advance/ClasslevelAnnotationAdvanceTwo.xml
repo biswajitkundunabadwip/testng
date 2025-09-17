@@ -1,0 +1,26 @@
+<suite name="Testng Suite Learning">
+<!-- in this xml if we run the  preferences goes to mentioned 
+ 1. @BeforeTest
+ 2. @BeforeClass
+ 3. @BeforeMethod
+ 4. @Test
+ 5. @afterMethod
+ 6. @AfterClass
+ 7. @AfterTest
+ -->
+
+	<test name="Here @BeforeTest and @AfterTest is implmeneted">
+		<!-- Here it will execute Before test and after test as -->
+		<classes>
+			<class
+				name="learn_testng.annotations.advance.ClasslevelAnnotationAdvance" />
+		</classes>
+	</test>
+
+	<test name="Learn Testng advance ">
+	<!-- Here it will only execute the Test implementation as its seperate test suite -->
+		<classes>
+			<class name="learn_testng.annotations.advance.OnlyTestAdvance" />
+		</classes>
+	</test>
+</suite>

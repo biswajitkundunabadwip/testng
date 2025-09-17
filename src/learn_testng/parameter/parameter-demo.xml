@@ -1,0 +1,13 @@
+<!-- This XML is used to check multiple parameters -->
+<suite name="Learn TestNG Parameters">
+
+    <!-- Suite-level parameters -->
+    <parameter name="status" value="201"/>
+    <parameter name="env" value="QA"/>
+
+    <test name="Parameter Checking">
+        <classes>
+            <class name="learn_testng.parameter.ParameterDemo"/>
+        </classes>
+    </test>
+</suite>

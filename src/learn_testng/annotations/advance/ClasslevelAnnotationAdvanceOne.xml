@@ -1,0 +1,19 @@
+<suite name="Testng Suite Learning">
+<!-- in this xml if we run the  preferences goes to mentioned 
+ 1. @BeforeTest
+ 2. @BeforeClass
+ 3. @BeforeMethod
+ 4. @Test
+ 5. @afterMethod
+ 6. @AfterClass
+ 7. @AfterTest
+ -->
+
+	<test name="Learn Testng advance ">
+		<classes>
+			<class
+				name="learn_testng.annotations.advance.ClasslevelAnnotationAdvance" />
+			<class name="learn_testng.annotations.advance.OnlyTestAdvance" />
+		</classes>
+	</test>
+</suite>
